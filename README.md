@@ -1,1 +1,1 @@
-my readme for 0x00-python-hello_world
+ this is a readme about 0x06-python-classes
