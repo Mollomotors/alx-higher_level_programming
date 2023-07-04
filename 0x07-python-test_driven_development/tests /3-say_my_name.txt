@@ -1,9 +1,6 @@
 ===============================
  How to Use doctest_in_help.py
 
-This library is easy to understand, only one function called
-``my_function() is here``.
-
 Numbers
 =======
 
