@@ -1,9 +1,5 @@
 ===============================
  How to Use doctest_in_help.py
-===============================
-
-This library is very simple, since it only has one function called
-``my_function()``.
 
 Numbers
 =======
@@ -18,9 +14,6 @@ that value is equivalent to using the ``*`` operator.
 
     >>> matrix_divided(matrix, 2)
     [[1.0, 28.0, 10.0], [3.5, 19.0, 2.5]]
-
-
-It also works with floating-point values.
 
 ::
     >>> matrix = [[1.2, 2.4, 3.6],[4.6, 5.4, 6.8]]
@@ -44,10 +37,6 @@ It also works with floating-point values.
 
 Non-Numbers
 ===========
-
-Because ``*`` is also defined on data types other than numbers,
-``my_function()`` works just as well if one of the arguments is a
-string, a list, or a tuple.
 
 ::
   >>> matrix = [[1.2, 2.4, 3.6],[4.6, 5.4, 6.8]]
