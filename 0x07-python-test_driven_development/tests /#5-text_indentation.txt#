@@ -1,9 +1,5 @@
 ===============================
  How to Use doctest_in_help.py
-===============================
-
-This library is very simple, since it only has one function called
-``my_function()``.
 
 Numbers
 =======
@@ -11,13 +7,10 @@ Numbers
 ``my_function()`` returns the product of its arguments.  For numbers,
 that value is equivalent to using the ``*`` operator.
 
-::
-
     >>> text_indentation = __import__('5-text_indentation').text_indentation
     >>> text_indentation(None)
     Traceback (most recent call last):
     TypeError: text must be a string
-
 
     text_indentation("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
     Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere? \
