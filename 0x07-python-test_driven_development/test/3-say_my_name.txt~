@@ -1,0 +1,41 @@
+===============================
+ How to Use doctest_in_help.py
+
+Numbers
+=======
+
+``my_function()`` returns the product of its arguments.  For numbers,
+that value is equivalent to using the ``*`` operator.
+
+::
+
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+    >>> say_my_name("Nildiert", "Jimenez")
+    My name is Nildiert Jimenez
+
+
+::
+    >>> say_my_name("", 2)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+    >>> say_my_name("", None)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+    >>> say_my_name(None, None)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+
+    >>> say_my_name(1, 2)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+    >>> say_my_name("", "Smith")
+    My name is Smith
+
+Non-Numbers
+===========
+
+::
